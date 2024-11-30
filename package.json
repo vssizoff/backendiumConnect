@@ -1,16 +1,19 @@
 {
-  "name": "backendiumConnect",
+  "name": "backendium-connect",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepack": "tsc"
   },
   "dependencies": {
     "axios": "^1.7.8",
-    "checkeasy": "^1.2.1"
+    "checkeasy": "^1.2.1",
+    "event-emitter-typescript": "^2.1.1"
   },
   "devDependencies": {
+    "@types/node": "^22.10.1",
     "typescript": "^5.5.3"
   },
   "private": true

@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "outDir": "./dist",
     "declaration": true,
-    "lib": ["ES2021.String", "DOM"]
+    "lib": ["ES2021.String"]
   },
   "include": ["./src"]
 }
