@@ -1,8 +1,9 @@
 {
   "name": "backendium-connect",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "nodejs package for Backendium Websocket protocol and other requests",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepack": "tsc"
@@ -16,5 +17,5 @@
     "@types/node": "^22.10.1",
     "typescript": "^5.5.3"
   },
-  "private": true
+  "files": ["src", "dist", "package.json", "tsconfig.json"]
 }
