@@ -1,6 +1,6 @@
 {
   "name": "backendium-connect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nodejs package for Backendium Websocket protocol and other requests",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "axios": "^1.7.8",
-    "checkeasy": "^1.2.1",
     "event-emitter-typescript": "^2.1.1"
+  },
+  "peerDependencies": {
+    "checkeasy": "^1.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",
