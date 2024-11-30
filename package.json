@@ -1,6 +1,6 @@
 {
   "name": "backendium-connect",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "nodejs package for Backendium Websocket protocol and other requests",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
